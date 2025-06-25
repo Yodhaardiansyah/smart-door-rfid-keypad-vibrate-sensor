@@ -38,9 +38,6 @@ An advanced IoT-based smart door system using RFID, PIN keypad, and Telegram for
 | Telegram |
 +------------+
 
-markdown
-Salin
-Edit
 
 - D1 Mini membaca input PIN, mengirim ke ESP32 via Serial.
 - ESP32 membaca kartu RFID dan mencocokkan UID.
