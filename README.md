@@ -28,16 +28,7 @@ An advanced IoT-based smart door system using RFID, PIN keypad, and Telegram for
 
 ## 🔧 How It Works
 
-+-------------+ TX/RX +-------------+
-| D1 Mini | <----------------> | ESP32 |
-| [Keypad] | | [RFID, LCD] |
-| [Buzzer Out]| | [Relay, WiFi]|
-+-------------+ +-------------+
-|
-+-----+------+
-| Telegram |
-+------------+
-
+![ChatGPT Image 26 Jun 2025, 06 55 30](https://github.com/user-attachments/assets/19f5dafa-b268-46c4-ac1b-1774d995a948)
 
 - D1 Mini membaca input PIN, mengirim ke ESP32 via Serial.
 - ESP32 membaca kartu RFID dan mencocokkan UID.
